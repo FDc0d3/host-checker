@@ -1,2 +1,6 @@
 # host-checker
-idk I made weird shit again :/
+
+• usage
+```
+python3 main.py https://www.google.com
+```

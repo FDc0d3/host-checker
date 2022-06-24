@@ -34,7 +34,7 @@ class HostCheck:
 					elif code == 303:
 						print(f"[{self.count}] Status from {self.url} | {code} | {round(resp.elapsed.total_seconds(), 3)} Seconds | (See Other)")
 					elif code == 307:
-						print(f"[{self.count}] Status from {self.url} | {code} | {round(resp.elapsed.total_seconds(), 3)} Seconds | (Temporary Redirect)")
+						print(Color.LY+f"[{self.count}] Status from {self.url} | {code} | {round(resp.elapsed.total_seconds(), 3)} Seconds | (Temporary Redirect)")
 					elif code == 400:
 						print(Color.LR+f"[{self.count}] Status from {self.url} | {code} | {round(resp.elapsed.total_seconds(), 3)} Seconds | (Bad Request)")
 					elif code == 401:

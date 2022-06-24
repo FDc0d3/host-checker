@@ -2,7 +2,7 @@
 
 # install
 ```
-pip3 install httpx
+pip3 install httpx colorama
 ```
 # usage
 ```
